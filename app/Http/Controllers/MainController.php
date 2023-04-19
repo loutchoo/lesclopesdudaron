@@ -18,6 +18,10 @@ class MainController extends Controller
         return view('home');
     }
 
+    public function download(){
+        return view('download');
+    }
+
 public function login(){
     if (Auth::check()) {
         return redirect()->route('dashboard');

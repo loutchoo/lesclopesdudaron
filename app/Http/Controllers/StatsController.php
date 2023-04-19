@@ -15,9 +15,10 @@ public function kill($id){
     return response()->json(['Un kill a ete ajoute' => true]);
 }
 
-public function piece($id){
+public function piece($id, $number){
     $stats = Stat::findOrFail($id);
-    $stats->pieces++;
+    $nombre = $stats->pieces + $number;
+    $stats->pieces = $nombre;
     $stats->save();
 
     return response()->json(['Une piece a ete ajoute' => true]);

@@ -21,4 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/kill/{user_id}',[StatsController::class,'kill']);
-Route::get('/piece/{user_id}',[StatsController::class,'piece']);
+Route::get('/piece/{user_id}/{number}',[StatsController::class,'piece']);

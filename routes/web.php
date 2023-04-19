@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'home'])->name('home');
+Route::get('/download', [MainController::class, 'download']);
 
 Route::middleware(['auth'])->group(function(){
     Route::get('/dashboard', [AuthController::class, 'dashboard'])->name('dashboard');
