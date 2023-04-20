@@ -24,11 +24,6 @@ class User extends Authenticatable
         'password',
     ];
 
-    public function up()
-{
-    DB::statement('ALTER TABLE users AUTO_INCREMENT = 0;');
-}
-
     /**
      * The attributes that should be hidden for serialization.
      *

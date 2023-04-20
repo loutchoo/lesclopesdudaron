@@ -15,6 +15,15 @@ public function kill($id){
     return response()->json(['Un kill a ete ajoute' => true]);
 }
 
+public function removekill($id, $number){
+    $stats = Stat::findOrFail($id);
+    $nombre = $stats->kills - $number;
+    $stats->kills = $nombre;
+    $stats->save();
+
+    return response()->json(['Le nombre de kills demande a ete enleve' => true]);
+}
+
 public function piece($id, $number){
     $stats = Stat::findOrFail($id);
     $nombre = $stats->pieces + $number;
@@ -22,5 +31,14 @@ public function piece($id, $number){
     $stats->save();
 
     return response()->json(['Une piece a ete ajoute' => true]);
+}
+
+public function removepiece($id, $number){
+    $stats = Stat::findOrFail($id);
+    $nombre = $stats->pieces - $number;
+    $stats->pieces = $nombre;
+    $stats->save();
+
+    return response()->json(['Le nombre de pieces demande a ete enleve' => true]);
 }
 }
