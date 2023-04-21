@@ -38,8 +38,8 @@
         <div class="flex justify-center mt-20">
             <div>
                 <h1 class="text-center text-3xl">Statistiques :</h1>
-                <h1 class="inline-block mt-2 sm:text-2xl text-xl text-center">💰 Argent récolté jusqu'à présent : {{$stats->pieces}}</h1>
-                <h1 class="sm:text-2xl text-xl">☠ Personnes tuées jusqu'à présent : {{$stats->kills}}</h1>
+                <h1 class="inline-block mt-2 sm:text-2xl text-lg text-center">💰 Argent récolté jusqu'à présent : {{$stats->pieces}}</h1>
+                <h1 class="sm:text-2xl text-lg">☠ Personnes tuées jusqu'à présent : {{$stats->kills}}</h1>
             </div>       
         </div>
         <div class="flex justify-center mt-40">
