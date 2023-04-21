@@ -43,8 +43,8 @@
         </div>
         @elseif ($message == "noconnecte")
         <div class="flex">
-            <a href="/login"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="sm:m-3 font-medium sm:font-bold mx-2 sm:mx-0">Se connecter</h1></div></a>
-            <a href="/register"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="sm:m-3 font-medium sm:font-bold mx-2 sm:mx-0">Créer compte</h1></div></a>
+            <a href="/login"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="sm:m-3 font-medium sm:font-bold mx-2 sm:mx-4">Se connecter</h1></div></a>
+            <a href="/register"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="sm:m-3 font-medium sm:font-bold mx-2 sm:mx-4">Créer compte</h1></div></a>
         </div>
         @endif
       </div>
