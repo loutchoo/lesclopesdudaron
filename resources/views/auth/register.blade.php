@@ -17,7 +17,7 @@
     <div class="mb-4"></div>
     <header class="bg-gray-900 text-white rounded-full mx-8 shadow-lg">
         <div class="container flex justify-center sm:mx-auto sm:flex sm:justify-between sm:items-center py-4 animate__animated animate__bounceIn">
-          <div class="text-3xl font-bold flex"><a href="/"><img class="rounded-full" width="50" height="100" src="{{asset('images/daron.jpeg')}}" alt=""></a><a href="/" class="ml-2">Lesclopesdudaron</a></div>
+          <div class="text-3xl font-bold flex"><a href="/"><img class="rounded-full" width="50" height="100" src="{{asset('images/daron.jpeg')}}" alt=""></a><a href="/" class="ml-2 sm:text-2xl text-xl">Lesclopesdudaron</a></div>
           <nav>
             <ul class="hidden sm:flex space-x-4">
                 <div class="rounded-full border- border-white"><li class="mx-2"><a href="/" class="hover:text-gray-400 m-1">Accueil</a></li></div>
