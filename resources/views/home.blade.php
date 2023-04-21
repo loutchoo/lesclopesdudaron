@@ -39,12 +39,12 @@
       <div class="flex justify-center mt-8">
         @if ($message =="connecte")
         <div class="flex">
-            <a href="/dashboard"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="m-2">Dashboard</h1></div></a>
+            <a href="/dashboard"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="m-2 mx-2 sm:mx-4">Dashboard</h1></div></a>
         </div>
         @elseif ($message == "noconnecte")
         <div class="flex">
-            <a href="/login"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="m-1 sm:m-3">Se connecter</h1></div></a>
-            <a href="/register"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="m-1 sm:m-3">Créer compte</h1></div></a>
+            <a href="/login"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="sm:m-3 font-medium sm:font-bold mx-2 sm:mx-0">Se connecter</h1></div></a>
+            <a href="/register"><div class="rounded-full border-2 border-red-500 mx-2 hover:text-red-500 hover:border-red-700"><h1 class="sm:m-3 font-medium sm:font-bold mx-2 sm:mx-0">Créer compte</h1></div></a>
         </div>
         @endif
       </div>
@@ -103,8 +103,8 @@
                 <div class="sm:flex justify-center">
                     <div class="mt-10 sm:mt-0 mx-10">
                       <div class="flex flex-col items-center justify-center">
-                        <img class="rounded-full imgmagique" src="{{asset('images/team/avatar.avif')}}" alt="">
-                        <p class="text-center">Wassim - Python developer</p>
+                        <img class="rounded-full imgmagique" src="https://media.istockphoto.com/id/1300845620/fr/vectoriel/appartement-dic%C3%B4ne-dutilisateur-isol%C3%A9-sur-le-fond-blanc-symbole-utilisateur.jpg?s=612x612&w=0&k=20&c=BVOfS7mmvy2lnfBPghkN__k8OMsg7Nlykpgjn0YOHj0=" alt="">
+                        <p class="text-center">Wassim - Video Maker</p>
                       </div>
                     </div>
                     <div class="mt-10 sm:mt-0 mx-10">
@@ -130,7 +130,7 @@
                 </div>
                 <div class="mt-10 sm:mt-0 sm:mx-40">
                     <div class="flex flex-col items-center justify-center">
-                      <img class="rounded-full imgmagique" src="{{asset('images/team/avatar.avif')}}" alt="">
+                      <img class="rounded-full imgmagique" src="https://media.istockphoto.com/id/1300845620/fr/vectoriel/appartement-dic%C3%B4ne-dutilisateur-isol%C3%A9-sur-le-fond-blanc-symbole-utilisateur.jpg?s=612x612&w=0&k=20&c=BVOfS7mmvy2lnfBPghkN__k8OMsg7Nlykpgjn0YOHj0=" alt="">
                       <p class="text-center">Merouane - Python developer</p>
                     </div>
                   </div>

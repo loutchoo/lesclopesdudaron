@@ -30,7 +30,7 @@
       </header>
       <div class="flex justify-center mt-8">
       </div>
-      <div class="mt-4">
+      <div class="mt-4 animate__animated animate__lightSpeedInRight">
         <h1 class="text-center">Bienvenue {{ Auth::user()->name }} !</h1>
         <h1 class="text-center text-lg text-red-500">Votre identifiant de joueur est : {{ Auth::user()->id }}</h1>
       </div>

@@ -30,7 +30,7 @@
             </div>
           </header>
     </div>
-    <div class="flex justify-center mt-56">
+    <div class="flex justify-center mt-56 animate__animated animate__flip">
         <div>
             <div class="rounded-full border-2 bg-red-500 text-black border-red-500 shadow-xl"><h1 class="mx-10 m-3"><a href="/download" class="hover:text-gray-800 m-1">Télecharger</a></h1></div>
             <h1 class="text-center text-sm mt-2 opacity-0 hover:opacity-100">Sauve un maximum de darons</h1>
