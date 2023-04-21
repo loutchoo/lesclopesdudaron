@@ -1,5 +1,7 @@
 Site internet du jeu Lesclopesdudaron.
 
+https://lesclopesdudaron.tech
+
 Le jeu (python) communique avec l'api du site en ajoutant chaque kill et piece récupérée dans un compteur étant propre joueur en base de donnée.
 
 Fait avec Laravel et Tailwind.
