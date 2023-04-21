@@ -6,6 +6,12 @@ Le jeu (python) communique avec l'api du site en ajoutant chaque kill et piece r
 
 Fait avec Laravel et Tailwind.
 
+Comment lancer le projet ?
+
+Nous avons hebergé le site pour qu'il soit consultable plus facilement : https://lesclopesdudaron.tech
+Sinon :
+https://www.youtube.com/watch?v=KrsicG8gfVg&pp=ugMICgJmchABGAHKBSNjb21tZW50IGluc3RhbGxlciB1biBwcm9qZXQgbGFyYXZlbA%3D%3D
+
 <img width="1440" alt="Capture d’écran 2023-04-20 à 14 40 40" src="https://user-images.githubusercontent.com/63863060/233368829-a41deecd-f781-46d9-9bd3-a5b5ba337125.png">
 <img width="1440" alt="Capture d’écran 2023-04-20 à 14 41 11" src="https://user-images.githubusercontent.com/63863060/233368941-fd124023-e75c-4c77-ab83-fc942c21d3e2.png">
 <img width="1440" alt="Capture d’écran 2023-04-20 à 14 41 33" src="https://user-images.githubusercontent.com/63863060/233369031-75241a7e-08ab-4959-868e-4f12a39e004f.png">
