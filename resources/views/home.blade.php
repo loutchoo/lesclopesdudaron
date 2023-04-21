@@ -67,7 +67,7 @@
         
       </div>
       <div class="mt-8">
-        <h1 class="text-center textcolor font-bold text-3xl sm:text-5xl text-white mt-4">🚬 Présentation du jeu ! 🚬</h1>
+        <h1 class="text-center textcolor font-bold text-2xl sm:text-5xl text-white mt-4">🚬 Présentation du jeu ! 🚬</h1>
         <div class="flex justify-center mt-6">
             <img src="{{asset('images/jeu.png')}}" class="w-96 sm:w-1/2 rounded-lg" alt="">
         </div>
