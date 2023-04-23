@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('images/daron.ico')}}" />
     <title>LesClopesDuDaron</title>
 </head>
 <style>
